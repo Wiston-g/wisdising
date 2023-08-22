@@ -1,0 +1,93 @@
+.logo{
+    width: 6em;
+    height: 2em;
+}
+
+/*header{
+    border-bottom: 1px solid rgba(54, 53, 53, 0.4);
+}*/
+
+body{
+    background-color: rgba(225, 219, 253, 0.5) !important;
+}
+
+.titulos{
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+}
+.imagenes{
+    width: 100%;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.check{
+    width: 1.8em;
+}
+
+li{
+    list-style: none;
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 40px;
+  z-index: 999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-icon img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.whatsapp-icon span {
+  display: none;
+}
+
+.whatsapp-icon:hover span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  padding: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-left:10px;
+}
+
+.oval-half-red {
+     width: 100%;
+     height: 100%;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 5% / 0 100%;
+     background: #1a2842;
+     border: 3px solid #1a2842;
+}
+
+@media (max-width: 764px) {
+  .elemento-a-mostrar {
+    display: block; /* O el valor que corresponda para mostrar el elemento */
+  }
+}
+
+/* Estilos que se aplicarán para tamaños de pantalla mayores a 764px */
+@media (min-width: 765px) {
+  .elemento-a-mostrar {
+    display: none;
+  }
+}
