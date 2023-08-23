@@ -31,6 +31,22 @@ p{
 li{
     list-style: none;
 }
+
+.btn-arrow{
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-arrow img{  
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
@@ -75,8 +91,12 @@ li{
      -moz-border-radius: 0 50% / 0 100%;
      -webkit-border-radius: 0 50% / 0 100%;
      border-radius: 0 5% / 0 100%;
-     background: #1a2842;
+     background: #ffffff;
      border: 3px solid #1a2842;
+}
+
+div > .Dq4amc{
+  display: none !important;
 }
 
 @media (max-width: 764px) {
