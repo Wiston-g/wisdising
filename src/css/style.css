@@ -99,6 +99,11 @@ div > .Dq4amc{
   display: none !important;
 }
 
+.card-products:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 764px) {
   .elemento-a-mostrar {
     display: block; /* O el valor que corresponda para mostrar el elemento */
